@@ -1,0 +1,23 @@
+[project]
+name = "pubmed-search"
+version = "0.1.0"
+description = "search pubmed via MCP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "biopython>=1.84",
+    "httpx>=0.28.0",
+    "mcp>=1.0.0",
+    "python-dotenv>=1.0.1",
+]
+
+[[project.authors]]
+name = "wavelovey"
+email = "wave_lovey.0v@icloud.com"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+pubmed-search = "pubmed_search:main"
