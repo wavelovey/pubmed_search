@@ -2,6 +2,8 @@
 
 search pubmed via MCP
 
+<a href="https://glama.ai/mcp/servers/3gvmhm0qm7"><img width="380" height="200" src="https://glama.ai/mcp/servers/3gvmhm0qm7/badge" /></a>
+
 ## Components
 
 ### Resources
